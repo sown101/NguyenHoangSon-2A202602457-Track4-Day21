@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Đủ cho topic A, C (phần perturb + projection), E, F. Chạy CPU, không cần GPU.
 numpy>=1.24
 opencv-python>=4.8
