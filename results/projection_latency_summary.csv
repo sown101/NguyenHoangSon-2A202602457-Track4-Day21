@@ -1,0 +1,3 @@
+dataset,repeats,p50_ms,p95_ms
+kitti,30,31.756950,40.428285
+nuscenes,30,7.348950,8.166835

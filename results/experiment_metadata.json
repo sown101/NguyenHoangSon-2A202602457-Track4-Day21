@@ -1,0 +1,213 @@
+{
+  "python": "3.13.1",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "numpy": "2.5.3",
+  "opencv": "5.0.0",
+  "matplotlib": "3.11.2",
+  "pandas": "3.0.6",
+  "gpu_used": false,
+  "seed": 457,
+  "min_object_points": 10,
+  "latency_repeats": 30,
+  "frames": {
+    "kitti": [
+      "000001",
+      "000004",
+      "000007",
+      "000008",
+      "000009",
+      "000010",
+      "000011",
+      "000012",
+      "000015",
+      "000016",
+      "000019",
+      "000021",
+      "000023",
+      "000025",
+      "000031",
+      "000032",
+      "000043",
+      "000048",
+      "000049",
+      "000061"
+    ],
+    "nuscenes": [
+      "scene-0103_000",
+      "scene-0103_001",
+      "scene-0103_002",
+      "scene-0103_003",
+      "scene-0103_004",
+      "scene-0103_005",
+      "scene-0103_006",
+      "scene-0103_007",
+      "scene-0103_008",
+      "scene-0103_009",
+      "scene-0103_010",
+      "scene-0103_011",
+      "scene-0103_012",
+      "scene-0103_013",
+      "scene-0103_014",
+      "scene-0103_015",
+      "scene-0103_016",
+      "scene-0103_017",
+      "scene-0103_018",
+      "scene-0103_019",
+      "scene-0103_020",
+      "scene-0103_021",
+      "scene-0103_022",
+      "scene-0103_023",
+      "scene-0103_024",
+      "scene-0103_025",
+      "scene-0103_026",
+      "scene-0103_027",
+      "scene-0103_028",
+      "scene-0103_029",
+      "scene-0103_030",
+      "scene-0103_031",
+      "scene-0103_032",
+      "scene-0103_033",
+      "scene-0103_034",
+      "scene-0103_035",
+      "scene-0103_036",
+      "scene-0103_037",
+      "scene-0103_038",
+      "scene-0103_039",
+      "scene-1094_000",
+      "scene-1094_001",
+      "scene-1094_002",
+      "scene-1094_003",
+      "scene-1094_004",
+      "scene-1094_005",
+      "scene-1094_006",
+      "scene-1094_007",
+      "scene-1094_008",
+      "scene-1094_009",
+      "scene-1094_010",
+      "scene-1094_011",
+      "scene-1094_012",
+      "scene-1094_013",
+      "scene-1094_014",
+      "scene-1094_015",
+      "scene-1094_016",
+      "scene-1094_017",
+      "scene-1094_018",
+      "scene-1094_019",
+      "scene-1094_020",
+      "scene-1094_021",
+      "scene-1094_022",
+      "scene-1094_023",
+      "scene-1094_024",
+      "scene-1094_025",
+      "scene-1094_026",
+      "scene-1094_027",
+      "scene-1094_028",
+      "scene-1094_029",
+      "scene-1094_030",
+      "scene-1094_031",
+      "scene-1094_032",
+      "scene-1094_033",
+      "scene-1094_034",
+      "scene-1094_035",
+      "scene-1094_036",
+      "scene-1094_037",
+      "scene-1094_038",
+      "scene-1094_039"
+    ]
+  },
+  "configurations": [
+    {
+      "family": "yaw",
+      "level": -3.0,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": -2.0,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": -1.0,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": -0.5,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": 0.0,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": 0.5,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": 1.0,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": 2.0,
+      "unit": "deg"
+    },
+    {
+      "family": "yaw",
+      "level": 3.0,
+      "unit": "deg"
+    },
+    {
+      "family": "lateral",
+      "level": -0.1,
+      "unit": "m"
+    },
+    {
+      "family": "lateral",
+      "level": -0.05,
+      "unit": "m"
+    },
+    {
+      "family": "lateral",
+      "level": -0.02,
+      "unit": "m"
+    },
+    {
+      "family": "lateral",
+      "level": 0.0,
+      "unit": "m"
+    },
+    {
+      "family": "lateral",
+      "level": 0.02,
+      "unit": "m"
+    },
+    {
+      "family": "lateral",
+      "level": 0.05,
+      "unit": "m"
+    },
+    {
+      "family": "lateral",
+      "level": 0.1,
+      "unit": "m"
+    }
+  ],
+  "metric_definition": "Fixed baseline GT-3D-box + camera-FOV cohorts; micro average of point-object pairs. Outside-image points are misses; overlapping boxes can count one point more than once.",
+  "failure": {
+    "frame_id": "000011",
+    "object_index": 3,
+    "class": "Pedestrian",
+    "depth_m": 34.01878136461322,
+    "n_points": 40,
+    "baseline_box_pct": 100.0,
+    "box_pct": 7.5,
+    "loss_pp": 92.5,
+    "fov_delta_pp": 0.005555349801859677
+  }
+}
