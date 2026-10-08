@@ -2,7 +2,7 @@
 
 - **Họ tên:** Nguyễn Hoàng Sơn
 - **MSSV:** 2A202602457
-- **Lớp:** Track 4
+- **Lớp:** AI20K-T4
 - **Link repo:** https://github.com/sown101/NguyenHoangSon-2A202602457-Track4-Day21
 - **Topic:** A — LiDAR-camera projection QA, mức Basic và Good.
 - **Dataset:** `data/synthetic` để kiểm tra CP2; `data/kitti_mini` và `data/nuscenes_mini_subset` cho thí nghiệm chính.
